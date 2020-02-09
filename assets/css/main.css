@@ -2532,6 +2532,8 @@ input, select, textarea {
 		.image img {
 			border-radius: 4px;
 			display: block;
+			height: 100%;
+			width: 100%;
 		}
 
 		.image.left {
@@ -3513,15 +3515,14 @@ input, select, textarea {
 
 			#banner .content .image {
 				border-radius: 100%;
-				display: inline-block;
-				height: 18em;
+				height: 15em;
 				margin-left: 3em;
 				vertical-align: middle;
-				width: 18em;
+				width: 15em;
 			}
 
 				#banner .content .image img {
-					border-radius: 100%;
+					/* border-radius: 100%; */
 					display: block;
 					width: 100%;
 				}
